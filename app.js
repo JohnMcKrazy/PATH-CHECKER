@@ -343,5 +343,3 @@ newBtn.addEventListener('click', addItem);
 outBtn.addEventListener('click', removeItem);
 resetBtn.addEventListener('click', resetChecker);
 btnAlert.addEventListener('click', checkerGarage);
-
-console.log('this is a try');
