@@ -18,6 +18,7 @@ const countDisplay = document.querySelector('.counter_card');
 const count = document.querySelector('.counter');
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //!BTNS CONSTANTS
+const btns = document.querySelectorAll('.btn');
 const btn1 = document.querySelector('#btn_1');
 const btn2 = document.querySelector('#btn_2');
 const btn3 = document.querySelector('#btn_3');
@@ -114,7 +115,7 @@ function addItem() {
     count.textContent = myMotosInTheGarage;
 }
 function removeItem() {
-    if (myMotosInTheGarage === 0) {
+    if (myMotosInTheGarage === 0 || myMotosInTheGarage === '') {
         openAlert(displaySorryAlert);
     } else {
         myMotosInTheGarage--;
@@ -213,6 +214,7 @@ function clearStyle(btnNumber, funct) {
 }
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //!FUNCTIONS IN RESERCH
+
 function checkMoto1() {
     moto1 = ckeckMotoGarage(moto1, btn1, checkMoto1);
     count.textContent = myMotosInTheGarage;

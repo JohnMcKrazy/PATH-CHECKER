@@ -117,6 +117,7 @@ body {
 
 .alert_container1 {
   position: absolute;
+  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -237,6 +238,7 @@ body {
 
 .alert_container2 {
   position: absolute;
+  top: 0;
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

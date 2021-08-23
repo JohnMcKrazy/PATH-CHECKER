@@ -83,6 +83,7 @@ body {
 }
 .alert_container1 {
     position: absolute;
+    top: 0;
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0.7);
@@ -151,6 +152,7 @@ body {
 
 .alert_container2 {
     position: absolute;
+    top: 0;
     display: none;
     justify-content: center;
     background: rgba(0, 0, 0, 0.7);
